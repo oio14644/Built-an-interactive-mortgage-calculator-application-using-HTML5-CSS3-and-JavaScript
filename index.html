@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<link rel="stylesheet" href="format.css"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Mortgage Calculator</title>
+</head>
+<body>
+<div id="container">
+
+    <div>
+        <img src="http://www.bingo.org/wp-content/uploads/2015/05/Bingo-Happy-Man-with-Money.jpg"/>
+        <img src="http://image.autowini.com/IMG/spec/TOYOTA-COROLLA-AXIO-2010.jpg"/>
+        <img src="http://precisionpowerwash.com/wp-content/uploads/house1.png"/>
+    </div>
+
+    <h1>Mortgage Calculator</h1>
+
+    <div id="introduction">
+        Use this Mortgage Calculator to estimate your monthly payment. Simply enter the total price of the car or house,
+        your down payment, and details about the mortgage to calculate your monthly payment.
+    </div>
+    <div id="calculator">
+        <p>Total Price ($)</p>
+
+        <p><input type="text" id="totalPrice"/></p>
+
+        <p>Down Payment ($)</p>
+
+        <p><input type="text" id="downPayment"/></p>
+
+        <p>Interest Rate (%)</p>
+
+        <p><input type="text" id="interest"/></p>
+
+        <p>Mortgage Period (Months)</p>
+
+        <p><input type="text" id="period"/></p>
+
+        <p>
+            <button id="btnCalculate">Calculate Payments</button>
+        </p>
+        <p>Monthly Payments ($)</p>
+
+        <p><span id="outMonthly"></span></p>
+        <script src="Calculator.js"></script>
+    </div>
+</div>
+</body>
+</html>
