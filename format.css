@@ -1,0 +1,27 @@
+#container {
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+}
+
+img {
+    width: 32%;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+#introduction {
+    background: lightblue;
+    padding: 12px;
+}
+
+#calculator {
+    background: #eee;
+}
+
+#outMonthly {
+    color: blue;
+}
